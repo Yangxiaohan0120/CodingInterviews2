@@ -18,4 +18,8 @@ public class UglyNumber {
         }
         return res[n-1];
     }
+
+    public static void main(String[] args) {
+        System.out.println(new UglyNumber().nthUglyNumber(12));
+    }
 }
